@@ -1,0 +1,72 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("background.jpg");
+    background-size: cover;
+  }
+  
+  /* Стили для заголовка */
+  .header {
+    background-color: #0088cc;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Стили для основного контента */
+  .content {
+    padding: 20px;
+  }
+  
+  /* Стили для позиций */
+  .position {
+    margin-bottom: 30px;
+  }
+  
+  .position h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Стили для выпадающего списка */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-btn {
+    background-color: #0088cc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content h3,
+  .dropdown-content p {
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Стили для футера */
+  .footer {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+  }
