@@ -1,0 +1,54 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Стили для заголовка */
+  .header {
+    background-color: #0088cc;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Стили для основного контента */
+  .content {
+    padding: 20px;
+  }
+  
+  /* Стили для позиций */
+  .position {
+    margin-bottom: 30px;
+  }
+  
+  .position h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Стили для вакансий */
+  .vacancy {
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .vacancy h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .vacancy p {
+    margin: 0;
+    color: #888;
+  }
+  
+  /* Стили для футера */
+  .footer {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+  }
